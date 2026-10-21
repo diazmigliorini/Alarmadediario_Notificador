@@ -1,0 +1,11 @@
+# Entorno y credenciales
+.env
+
+# Entorno virtual
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class

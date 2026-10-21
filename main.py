@@ -5,6 +5,10 @@ Punto de entrada de la aplicación FastAPI.
 
 import logging
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from fastapi import FastAPI, status
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
